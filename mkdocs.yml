@@ -56,3 +56,5 @@ extra_javascript:
 
 nav:
   - Início: index.md
+  - Exercícios:
+      - "Exercício 1 — Dados": exercicios/exercicio_1.ipynb
