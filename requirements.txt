@@ -1,0 +1,7 @@
+mkdocs-material
+mkdocs-jupyter
+mkdocs-git-revision-date-localized-plugin
+numpy
+pandas
+matplotlib
+scikit-learn

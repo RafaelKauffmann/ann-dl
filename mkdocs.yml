@@ -1,0 +1,58 @@
+site_name: Redes Neurais e Deep Learning
+site_author: Rafael Kauffmann
+site_url: https://rafaelkauffmann.github.io/redes_neurais_deep_learning/
+
+repo_url: https://github.com/RafaelKauffmann/redes_neurais_deep_learning
+repo_name: RafaelKauffmann/redes_neurais_deep_learning
+
+theme:
+  name: material
+  language: pt-BR
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Ativar modo escuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Ativar modo claro
+
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.tracking
+    - content.code.copy
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - mkdocs-jupyter:
+      execute: false
+      allow_errors: false
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Início: index.md
