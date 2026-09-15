@@ -1,9 +1,9 @@
 site_name: Redes Neurais e Deep Learning
 site_author: Rafael Kauffmann
-site_url: https://rafaelkauffmann.github.io/redes_neurais_deep_learning/
+site_url: https://rafaelkauffmann.github.io/ann-dl/
 
-repo_url: https://github.com/RafaelKauffmann/redes_neurais_deep_learning
-repo_name: RafaelKauffmann/redes_neurais_deep_learning
+repo_url: https://github.com/RafaelKauffmann/ann-dl
+repo_name: RafaelKauffmann/ann-dl
 
 theme:
   name: material
@@ -57,4 +57,4 @@ extra_javascript:
 nav:
   - Início: index.md
   - Exercícios:
-      - "Exercício 1 — Dados": exercicios/exercicio_1.ipynb
+      - "Exercício 1 — Dados": exercises/data.ipynb
