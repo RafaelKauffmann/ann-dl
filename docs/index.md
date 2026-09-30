@@ -9,6 +9,6 @@ Rafael Kauffmann
 ## Entregas
 
 - [x] Data
-- [ ] Perceptron
+- [x] Perceptron
 - [ ] MLP
 - [ ] VAE
